@@ -6,6 +6,9 @@
 //structure of this can be used for various implenentations of binary search tree
 //includes some more advanced functions for traversal of tree
 //recursive function calls
+//binary trees can have only 2 nodes per branch
+//since we use binary search pattern, operations are typically able to bypass half of the tree, meaning more efficient traversal
+//faster than finding items by key in unsorted array, but slower than hash table
 
 class Node {
   constructor(data, left = null, right = null) {
