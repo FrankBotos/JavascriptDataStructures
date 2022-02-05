@@ -5,6 +5,7 @@
 //left nodes are less than, right nodes are greater than
 //structure of this can be used for various implenentations of binary search tree
 //includes some more advanced functions for traversal of tree
+//recursive function calls
 
 class Node {
   constructor(data, left = null, right = null) {
